@@ -60,6 +60,10 @@ function AnimatedRoutes() {
 }
 
 export default function App() {
+  React.useEffect(() => {
+    document.title = "ZAAB";
+  }, []);
+
   return (
     <Router>
       <div className="min-h-screen flex flex-col">

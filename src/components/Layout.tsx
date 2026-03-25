@@ -9,7 +9,8 @@ export function Navbar() {
   return (
     <nav className="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-xl border-b border-black/5">
       <div className="max-w-7xl mx-auto px-8 py-4 flex justify-between items-center">
-        <Link to="/" className="text-2xl font-bold tracking-tighter text-black font-headline">
+        <Link to="/" className="flex items-center gap-2 text-2xl font-bold tracking-tighter text-black font-headline">
+          <img src="/src/images/icon.jpeg" alt="ZAAB Icon" className="w-8 h-8 rounded-lg" referrerPolicy="no-referrer" />
           ZAAB
         </Link>
         <div className="hidden md:flex items-center gap-8">
@@ -51,7 +52,10 @@ export function Footer() {
     <footer className="w-full py-12 border-t border-black/5 bg-white">
       <div className="max-w-7xl mx-auto px-8 flex flex-col md:flex-row justify-between items-center gap-6">
         <div className="flex flex-col gap-2">
-          <div className="text-xl font-bold text-black font-headline">ZAAB</div>
+          <div className="flex items-center gap-2 text-xl font-bold text-black font-headline">
+            <img src="/src/images/icon.jpeg" alt="ZAAB Icon" className="w-6 h-6 rounded-md" referrerPolicy="no-referrer" />
+            ZAAB
+          </div>
           <p className="text-black/40 text-sm max-w-xs">
             © 2024 ZAAB Digital Identity. All rights reserved.
           </p>

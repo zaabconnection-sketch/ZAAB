@@ -1,0 +1,5 @@
+{
+  "name": "ZAAB - USSD Automation",
+  "description": "Automate your USSD payments directly from your phone with ZAAB's kinetic automation engine.",
+  "requestFramePermissions": []
+}
